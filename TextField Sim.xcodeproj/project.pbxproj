@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D986574C298DAC290052F53B /* TextField_SimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986574B298DAC290052F53B /* TextField_SimApp.swift */; };
+		D986574E298DAC290052F53B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986574D298DAC290052F53B /* ContentView.swift */; };
+		D9865750298DAC2A0052F53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D986574F298DAC2A0052F53B /* Assets.xcassets */; };
+		D9865753298DAC2A0052F53B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9865752298DAC2A0052F53B /* Preview Assets.xcassets */; };
+		D986575D298DAC2A0052F53B /* TextField_SimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986575C298DAC2A0052F53B /* TextField_SimTests.swift */; };
+		D9865767298DAC2A0052F53B /* TextField_SimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9865766298DAC2A0052F53B /* TextField_SimUITests.swift */; };
+		D9865769298DAC2A0052F53B /* TextField_SimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9865768298DAC2A0052F53B /* TextField_SimUITestsLaunchTests.swift */; };
+		D9865776298DAD3D0052F53B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9865775298DAD3D0052F53B /* SwiftUIView.swift */; };
+		D9865778298DB3800052F53B /* nn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9865777298DB3800052F53B /* nn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9865759298DAC2A0052F53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9865740298DAC290052F53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9865747298DAC290052F53B;
+			remoteInfo = "TextField Sim";
+		};
+		D9865763298DAC2A0052F53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9865740298DAC290052F53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9865747298DAC290052F53B;
+			remoteInfo = "TextField Sim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9865748298DAC290052F53B /* TextField Sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextField Sim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D986574B298DAC290052F53B /* TextField_SimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_SimApp.swift; sourceTree = "<group>"; };
+		D986574D298DAC290052F53B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D986574F298DAC2A0052F53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9865752298DAC2A0052F53B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9865758298DAC2A0052F53B /* TextField SimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField SimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D986575C298DAC2A0052F53B /* TextField_SimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_SimTests.swift; sourceTree = "<group>"; };
+		D9865762298DAC2A0052F53B /* TextField SimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField SimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9865766298DAC2A0052F53B /* TextField_SimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_SimUITests.swift; sourceTree = "<group>"; };
+		D9865768298DAC2A0052F53B /* TextField_SimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_SimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9865775298DAD3D0052F53B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D9865777298DB3800052F53B /* nn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9865745298DAC290052F53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9865755298DAC2A0052F53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986575F298DAC2A0052F53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D986573F298DAC290052F53B = {
+			isa = PBXGroup;
+			children = (
+				D986574A298DAC290052F53B /* TextField Sim */,
+				D986575B298DAC2A0052F53B /* TextField SimTests */,
+				D9865765298DAC2A0052F53B /* TextField SimUITests */,
+				D9865749298DAC290052F53B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9865749298DAC290052F53B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9865748298DAC290052F53B /* TextField Sim.app */,
+				D9865758298DAC2A0052F53B /* TextField SimTests.xctest */,
+				D9865762298DAC2A0052F53B /* TextField SimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D986574A298DAC290052F53B /* TextField Sim */ = {
+			isa = PBXGroup;
+			children = (
+				D986574B298DAC290052F53B /* TextField_SimApp.swift */,
+				D986574D298DAC290052F53B /* ContentView.swift */,
+				D9865775298DAD3D0052F53B /* SwiftUIView.swift */,
+				D9865777298DB3800052F53B /* nn.swift */,
+				D986574F298DAC2A0052F53B /* Assets.xcassets */,
+				D9865751298DAC2A0052F53B /* Preview Content */,
+			);
+			path = "TextField Sim";
+			sourceTree = "<group>";
+		};
+		D9865751298DAC2A0052F53B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9865752298DAC2A0052F53B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D986575B298DAC2A0052F53B /* TextField SimTests */ = {
+			isa = PBXGroup;
+			children = (
+				D986575C298DAC2A0052F53B /* TextField_SimTests.swift */,
+			);
+			path = "TextField SimTests";
+			sourceTree = "<group>";
+		};
+		D9865765298DAC2A0052F53B /* TextField SimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9865766298DAC2A0052F53B /* TextField_SimUITests.swift */,
+				D9865768298DAC2A0052F53B /* TextField_SimUITestsLaunchTests.swift */,
+			);
+			path = "TextField SimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9865747298DAC290052F53B /* TextField Sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986576C298DAC2A0052F53B /* Build configuration list for PBXNativeTarget "TextField Sim" */;
+			buildPhases = (
+				D9865744298DAC290052F53B /* Sources */,
+				D9865745298DAC290052F53B /* Frameworks */,
+				D9865746298DAC290052F53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextField Sim";
+			productName = "TextField Sim";
+			productReference = D9865748298DAC290052F53B /* TextField Sim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9865757298DAC2A0052F53B /* TextField SimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986576F298DAC2A0052F53B /* Build configuration list for PBXNativeTarget "TextField SimTests" */;
+			buildPhases = (
+				D9865754298DAC2A0052F53B /* Sources */,
+				D9865755298DAC2A0052F53B /* Frameworks */,
+				D9865756298DAC2A0052F53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D986575A298DAC2A0052F53B /* PBXTargetDependency */,
+			);
+			name = "TextField SimTests";
+			productName = "TextField SimTests";
+			productReference = D9865758298DAC2A0052F53B /* TextField SimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9865761298DAC2A0052F53B /* TextField SimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9865772298DAC2A0052F53B /* Build configuration list for PBXNativeTarget "TextField SimUITests" */;
+			buildPhases = (
+				D986575E298DAC2A0052F53B /* Sources */,
+				D986575F298DAC2A0052F53B /* Frameworks */,
+				D9865760298DAC2A0052F53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9865764298DAC2A0052F53B /* PBXTargetDependency */,
+			);
+			name = "TextField SimUITests";
+			productName = "TextField SimUITests";
+			productReference = D9865762298DAC2A0052F53B /* TextField SimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9865740298DAC290052F53B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D9865747298DAC290052F53B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D9865757298DAC2A0052F53B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D9865747298DAC290052F53B;
+					};
+					D9865761298DAC2A0052F53B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D9865747298DAC290052F53B;
+					};
+				};
+			};
+			buildConfigurationList = D9865743298DAC290052F53B /* Build configuration list for PBXProject "TextField Sim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D986573F298DAC290052F53B;
+			productRefGroup = D9865749298DAC290052F53B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9865747298DAC290052F53B /* TextField Sim */,
+				D9865757298DAC2A0052F53B /* TextField SimTests */,
+				D9865761298DAC2A0052F53B /* TextField SimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9865746298DAC290052F53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9865753298DAC2A0052F53B /* Preview Assets.xcassets in Resources */,
+				D9865750298DAC2A0052F53B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9865756298DAC2A0052F53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9865760298DAC2A0052F53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9865744298DAC290052F53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D986574E298DAC290052F53B /* ContentView.swift in Sources */,
+				D986574C298DAC290052F53B /* TextField_SimApp.swift in Sources */,
+				D9865776298DAD3D0052F53B /* SwiftUIView.swift in Sources */,
+				D9865778298DB3800052F53B /* nn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9865754298DAC2A0052F53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D986575D298DAC2A0052F53B /* TextField_SimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986575E298DAC2A0052F53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9865769298DAC2A0052F53B /* TextField_SimUITestsLaunchTests.swift in Sources */,
+				D9865767298DAC2A0052F53B /* TextField_SimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D986575A298DAC2A0052F53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9865747298DAC290052F53B /* TextField Sim */;
+			targetProxy = D9865759298DAC2A0052F53B /* PBXContainerItemProxy */;
+		};
+		D9865764298DAC2A0052F53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9865747298DAC290052F53B /* TextField Sim */;
+			targetProxy = D9865763298DAC2A0052F53B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D986576A298DAC2A0052F53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D986576B298DAC2A0052F53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D986576D298DAC2A0052F53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextField Sim/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V7T96VN9D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.TextField-Sim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D986576E298DAC2A0052F53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextField Sim/Preview Content\"";
+				DEVELOPMENT_TEAM = 4V7T96VN9D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.TextField-Sim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9865770298DAC2A0052F53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V7T96VN9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.TextField-SimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField Sim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextField Sim";
+			};
+			name = Debug;
+		};
+		D9865771298DAC2A0052F53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V7T96VN9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.TextField-SimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField Sim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextField Sim";
+			};
+			name = Release;
+		};
+		D9865773298DAC2A0052F53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V7T96VN9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.TextField-SimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TextField Sim";
+			};
+			name = Debug;
+		};
+		D9865774298DAC2A0052F53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V7T96VN9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.TextField-SimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TextField Sim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9865743298DAC290052F53B /* Build configuration list for PBXProject "TextField Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986576A298DAC2A0052F53B /* Debug */,
+				D986576B298DAC2A0052F53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986576C298DAC2A0052F53B /* Build configuration list for PBXNativeTarget "TextField Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986576D298DAC2A0052F53B /* Debug */,
+				D986576E298DAC2A0052F53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986576F298DAC2A0052F53B /* Build configuration list for PBXNativeTarget "TextField SimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9865770298DAC2A0052F53B /* Debug */,
+				D9865771298DAC2A0052F53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9865772298DAC2A0052F53B /* Build configuration list for PBXNativeTarget "TextField SimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9865773298DAC2A0052F53B /* Debug */,
+				D9865774298DAC2A0052F53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9865740298DAC290052F53B /* Project object */;
+}
